@@ -1,0 +1,50 @@
+/* Global styling for the body element */
+body {
+  font-family: 'Helvetica', sans-serif; /* Font used across the page */
+  background-color: #f5f9ff; /* Background color */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  line-height: 1.5; /* Improved line spacing */
+}
+
+/* Styling for a container element that holds content */
+.container {
+  max-width: 800px; /* Maximum width */
+  margin: 40px auto; /* Center the container and add margin */
+  padding: 20px; /* Padding inside the container */
+  text-align: center; /* Center the text */
+  background: #ffffff; /* Background color for the container */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+/* Styling for h1 header elements */
+h1 {
+  color: #2c3e50; /* Text color */
+  margin-bottom: 40px; /* Increased margin at the bottom */
+}
+
+/* Styling for the div containing city information */
+div {
+  display: flex; /* Use flexbox layout */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center-align items */
+  justify-content: center; /* Center-align items vertically */
+  gap: 20px; /* Even space between items */
+}
+
+/* Styling for individual paragraphs within the info container */
+p {
+  background-color: #ecf0f1; /* Background color */
+  padding: 15px; /* Padding inside the paragraph */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  width: 80%; /* Relative width */
+  margin: 10px; /* Margin around the paragraph */
+}
+
+/* Styling for span elements to emphasize text */
+span {
+  color: #34495e; /* Text color */
+  font-weight: 600; /* Bold font weight */
+}
